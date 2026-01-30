@@ -1,0 +1,8 @@
+
+{
+  "name": "LaTeX Math Solver AI",
+  "description": "An intelligent application that converts images of mathematical problems into complete LaTeX code with step-by-step solutions using Gemini AI.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

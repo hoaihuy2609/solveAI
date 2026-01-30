@@ -1,0 +1,82 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <title>LaTeX Math Solver AI - Instant Math to LaTeX Converter</title>
+    <meta name="description" content="Instantly convert hand-written or printed math problems into perfect LaTeX code using advanced AI. Support for multiple images and step-by-step solutions.">
+    <meta name="keywords" content="latex, math solver, ai, ocr, math to latex, homework helper, artificial intelligence, gemini">
+    <meta name="author" content="LaTeX Math Solver AI">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://latex-math-solver-ai.vercel.app/">
+    <meta property="og:title" content="LaTeX Math Solver AI - Instant Math to LaTeX Converter">
+    <meta property="og:description" content="Convert math problems to LaTeX instantly with AI. Upload images and get solution code in seconds.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=1200">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="LaTeX Math Solver AI - Instant Math to LaTeX Converter">
+    <meta property="twitter:description" content="Convert math problems to LaTeX instantly with AI.">
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&q=80&w=1200">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=cal-sans:wght@400;500;600&family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              mono: ['Fira Code', 'monospace'],
+            },
+            colors: {
+              brand: {
+                50: '#f0f9ff',
+                100: '#e0f2fe',
+                200: '#bae6fd',
+                300: '#7dd3fc',
+                400: '#38bdf8',
+                500: '#0ea5e9',
+                600: '#0284c7',
+                700: '#0369a1',
+                800: '#075985',
+                900: '#0c4a6e',
+                950: '#082f49',
+              }
+            }
+          }
+        }
+      }
+    </script>
+
+    <!-- Import Map -->
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@^19.2.4",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+        "react/": "https://esm.sh/react@^19.2.4/",
+        "react-dom/client": "https://esm.sh/react-dom@^19.2.4/client",
+        "@google/genai": "https://esm.sh/@google/genai@^1.38.0",
+        "lucide-react": "https://esm.sh/lucide-react@^0.563.0"
+      }
+    }
+    </script>
+    
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body class="antialiased bg-slate-50 text-slate-900">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>
