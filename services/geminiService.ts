@@ -75,7 +75,7 @@ export const solveProblemsFromImages = async (files: File[]): Promise<string> =>
   try {
     // Upgraded to gemini-3-pro-preview as it is better suited for complex math and STEM tasks
     const response: GenerateContentResponse = await ai.models.generateContent({
-      model: 'gemini-3-pro-preview',
+      model: 'gemini-1.5-flash',
       contents: {
         parts: [
           ...imageParts,
